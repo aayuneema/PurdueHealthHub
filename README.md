@@ -12,4 +12,3 @@ They can answer a short personalized COVID-19 quiz to best deal with their speci
 Together, with the help of Purdue Health Hub, we can Protect Purdue!
 
 Created by: Aayu Neema, Stephanie Niemiec, Sruthi Koukuntla
-Purdue Hello World Hackathon 2020
