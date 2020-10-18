@@ -10,3 +10,6 @@ That is why we want to make it even EASIER for Purdue students to access these r
 Within the Android App, students can learn more about the free services offered to them as students. 
 They can answer a short personalized COVID-19 quiz to best deal with their specific situation and can also schedule their required flu shot. 
 Together, with the help of Purdue Health Hub, we can Protect Purdue!
+
+Created by: Aayu Neema, Stephanie Niemiec, Sruthi Koukuntla
+Purdue Hello World Hackathon 2020
