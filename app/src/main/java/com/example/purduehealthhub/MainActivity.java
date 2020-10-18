@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                 else if (location.equals("push")) {
                     openPush();
                 }
+                else if (location.equals("emergency")) {
+                    openEmergency();
+                }
                 else if (location.equals("error")) {
                     Toast.makeText(MainActivity.this, "Keyword not found", Toast.LENGTH_SHORT).show();
                 }

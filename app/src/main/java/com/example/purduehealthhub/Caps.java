@@ -22,7 +22,7 @@ public class Caps extends AppCompatActivity {
         hotlineCrisis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openEmergency();
+                openCapsEmergency();
             }
         });
 
@@ -43,8 +43,8 @@ public class Caps extends AppCompatActivity {
         });
     }
 
-    public void openEmergency() {
-        Intent intent = new Intent(this, Emergency.class);
+    public void openCapsEmergency() {
+        Intent intent = new Intent(this, CapsEmergency.class);
         startActivity(intent);
     }
 
