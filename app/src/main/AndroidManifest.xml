@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.purduehealthhub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PurdueHealthHub">
+        <activity android:name=".NoCovidSymptoms"></activity>
+        <activity android:name=".YesCovidSymptoms" />
+        <activity android:name=".CovidSymptoms" />
+        <activity android:name=".CovidNegative" />
+        <activity android:name=".NoCovidContact" />
+        <activity android:name=".CovidContact" />
+        <activity android:name=".CovidUnsure" />
+        <activity android:name=".CovidPositive" />
+        <activity android:name=".Resources" />
+        <activity android:name=".Questions" />
+        <activity android:name=".ProofOfVaccination" />
+        <activity android:name=".OnCampusClinics" />
+        <activity android:name=".Covid" />
+        <activity android:name=".Flu" />
+        <activity android:name=".InPersonTherapy" />
+        <activity android:name=".SelfHelp" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".Push" />
+        <activity android:name=".Caps" />
+        <activity android:name=".Care" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

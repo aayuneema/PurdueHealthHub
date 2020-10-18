@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purduecovidsymptoms"
+    tools:context=".CovidSymptoms">
+
+    <Button
+        android:id="@+id/yesButton3"
+        android:layout_width="131dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginBottom="140dp"
+        android:text="Yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/noButton3"
+        android:layout_width="131dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="45dp"
+        android:text="No"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yesButton3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
